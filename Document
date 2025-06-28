@@ -1,0 +1,53 @@
+# Tata Nav Calculator - Complete Documentation
+
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Installation Guide](#installation-guide)
+3. [System Requirements](#system-requirements)
+4. [Application Architecture](#application-architecture)
+5. [User Interface Guide](#user-interface-guide)
+6. [Features Documentation](#features-documentation)
+7. [Code Structure](#code-structure)
+8. [API Reference](#api-reference)
+9. [Troubleshooting](#troubleshooting)
+10. [Future Enhancements](#future-enhancements)
+
+---
+
+## Project Overview
+
+### Description
+Tata Nav Calculator is a Java Swing desktop application designed for calculating Net Asset Value (NAV) of stocks with real-time graphical representation. The application provides an intuitive interface for stock analysis, profit/loss calculations, and historical data visualization.
+
+### Key Features
+- **Stock NAV Calculation**: Calculate Net Asset Value based on buying and selling prices
+- **Real-time Graphing**: Dynamic line charts showing NAV trends
+- **Navigation System**: Multi-panel navigation for different functionalities
+- **Historical Data**: Track and display calculation history
+- **Profit/Loss Analysis**: Detailed financial analysis with percentages
+- **Export Capabilities**: Data export functionality (extensible)
+
+### Target Users
+- Stock traders and investors
+- Financial analysts
+- Students learning financial calculations
+- Anyone interested in stock market analysis
+
+---
+
+## Installation Guide
+
+### Prerequisites
+- **Java Development Kit (JDK)**: Version 8 or higher
+- **Operating System**: Windows, macOS, or Linux
+- **Memory**: Minimum 512MB RAM
+- **Storage**: 50MB free disk space
+
+### Step-by-Step Installation
+
+#### Method 1: Source Code Compilation
+1. **Download the source code**
+   ```bash
+   # Create project directory
+   mkdir TataNavCalculator
+   cd TataNavCalculator
