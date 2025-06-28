@@ -1,11 +1,5 @@
-Since you've requested to add an image but haven't provided the actual image file, I'll structure the documentation with a placeholder for where the image should be inserted. Here's the enhanced documentation with image integration points:
 
-# Tata Nav Calculator Documentation
-
-## Application Interface
-[INSERT SCREENSHOT HERE - Position this above the interface description]
-
-The application features a clean, user-friendly interface with the following key components:
+![image](https://github.com/user-attachments/assets/b12ea3a4-7b4e-4db5-8d9b-9cfc3d21a883)
 
 1. **Header Section**
    - Application title ("Nav Calculator")
@@ -26,36 +20,59 @@ The application features a clean, user-friendly interface with the following key
    - Settings button
    - Clear button
 
-[INSERT SECOND SCREENSHOT HERE - Position this below the interface description if showing multiple states]
+## How to Run the Application
 
-## Visual Guide to Key Features
+### Method 1: Using Pre-built JAR File
+1. Ensure you have Java installed (JDK 8 or later)
+2. Download the latest `TataNavCalculator.jar` file
+3. Run the application using either:
+   - Double-click the JAR file (if Java is properly configured), or
+   - Command line: `java -jar TataNavCalculator.jar`
 
-### Calculation Process Flow
-[INSERT FLOWCHART IMAGE HERE]
-1. Input phase (entering stock data)
-2. Calculation phase (processing NAV)
-3. Results display (showing final NAV)
+### Method 2: Running from Source Code
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/TataNavCalculator.git
+   ```
+2. Navigate to project directory:
+   ```bash
+   cd TataNavCalculator
+   ```
+3. Compile the source:
+   ```bash
+   javac -d bin src/com/tatanav/*.java
+   ```
+4. Run the application:
+   ```bash
+   java -cp bin com.tatanav.Main
+   ```
 
-### Navigation Structure
-[INSERT NAVIGATION DIAGRAM HERE]
-- Home → Core calculator
-- History → Past calculations
-- Settings → Preferences
-- Clear → Reset function
+## System Requirements
+- **Operating System**: Windows 10/11, macOS 10.15+, or Linux
+- **Java Version**: JDK 8 or later
+- **Memory**: Minimum 1GB RAM (2GB recommended)
+- **Display**: 1024×768 resolution minimum
 
-## Technical Notes for Image Implementation
+## Troubleshooting
+If you encounter issues:
+1. Verify Java installation: `java -version`
+2. Check file permissions on the JAR file
+3. Ensure no other Java applications are conflicting on port
+4. For GUI issues, try running with: `java -Dsun.java2d.uiScale=1 -jar TataNavCalculator.jar`
 
-For actual implementation, replace the [INSERT...] placeholders with:
-1. `image.png` for the main interface screenshot
-2. Additional screenshots showing:
-   - Calculation results state
-   - History panel view
-   - Settings configuration
+## Application Workflow
+1. Launch the application
+2. Enter stock details:
+   - Stock symbol (optional)
+   - Buying price
+   - Selling price
+3. Click "Calculate NAV"
+4. View results in the display panel
+5. Use navigation buttons to access other features
 
-Recommended image specifications:
-- Format: PNG or JPG
-- Resolution: Minimum 800x600 pixels
-- File size: Under 1MB per image
-- Alt text: Descriptive text for accessibility
-
-Would you like me to provide specific instructions for capturing these screenshots from the running application? Or would you prefer to proceed with the placeholder structure for now?
+Note: The workflow diagram (workflow.png) should show:
+1. Launch screen
+2. Data entry screen
+3. Calculation process
+4. Results display
+5. Navigation options
